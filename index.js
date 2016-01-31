@@ -53,7 +53,7 @@ if(!module.parent) {
     source,
     module.exports(function (err, stats) {
       if(err) throw err
-      console.log(stats)
+      console.log(stats.lines, stats.words, stats.bytes)
     })
   )
 }
