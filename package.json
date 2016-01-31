@@ -13,6 +13,7 @@
     "pull-utf8-decoder": "^1.0.1",
     "stream-to-pull-stream": "^1.6.6"
   },
+  "bin": "./index.js",
   "author": "Dominic Tarr <dominic.tarr@gmail.com> (http://dominictarr.com)",
   "license": "MIT"
 }
